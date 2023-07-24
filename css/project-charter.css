@@ -1,0 +1,183 @@
+@import url(font.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* ------------------------ */
+
+
+/* header */
+
+
+/* ------------------------ */
+
+.main-head {
+    height: 70vh;
+    margin-bottom: 0;
+    padding-top: 240px;
+    font-size: 90px;
+    background-color: #474545;
+}
+
+.main-cover {
+    height: 200px;
+    padding-top: 70px;
+    font-size: 40px;
+    background-color: #588cc4;
+}
+
+#Main-prj {
+    margin-top: 200px;
+}
+
+.header-h1 {
+    position: relative;
+}
+
+.icon-hp {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    transform: rotate(-30deg);
+}
+
+.icon-fl {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    transform: rotate(30deg);
+}
+
+
+/* ------------------------------ */
+
+
+/* Contact Info */
+
+
+/* ------------------------------ */
+
+.main-contact {
+    padding: 40px 0px 40px 0px;
+    background-color: #eeeff2;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.main-contact-icon {
+    transform: scale(1.5);
+    color: #339af0;
+}
+
+.main-contact-detail {
+    display: flex;
+    gap: 10px;
+}
+
+.main-contact-text a {
+    color: #868e96;
+    text-decoration: none;
+}
+
+
+/* ------------------------------ */
+
+
+/* Tablet */
+
+
+/* ------------------------------ */
+
+@media (max-width: 767px) {
+    .main-head {
+        font-size: 50px;
+        padding-top: 200px;
+        height: 50vh;
+    }
+    .icon-hp {
+        width: 50px;
+        height: 50px;
+        top: 23%;
+    }
+    .icon-fl {
+        width: 50px;
+        height: 50px;
+        top: 23%;
+    }
+    .main-cover {
+        font-size: 30px;
+        height: 150px;
+        padding-top: 50px;
+    }
+    #Main-prj {
+        margin-top: 100px;
+    }
+    .main-row-1 {
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .flex-primary {
+        flex-direction: column;
+    }
+    .main-contact {
+        margin-top: 50px;
+    }
+}
+
+
+/* ------------------------------ */
+
+
+/* Phone */
+
+
+/* ------------------------------ */
+
+@media (max-width: 600px) {
+    .main-head {
+        font-size: 40px;
+        padding-top: 150px;
+        height: 35vh;
+    }
+    .icon-hp {
+        width: 30px;
+        height: 30px;
+        top: 19%;
+    }
+    .icon-fl {
+        width: 30px;
+        height: 30px;
+        top: 19%;
+    }
+    .main-cover {
+        font-size: 25px;
+        height: 120px;
+        padding-top: 50px;
+    }
+    #Main-prj {
+        margin-top: 100px;
+    }
+    .main-row-1 {
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .flex-primary {
+        flex-direction: column;
+    }
+    .main-contact {
+        margin-top: 50px;
+    }
+    .icon {
+        text-align: center;
+    }
+}

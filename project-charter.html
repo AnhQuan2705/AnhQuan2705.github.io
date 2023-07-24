@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Charter</title>
+    <link rel="stylesheet" href="./css/project-charter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="header-h1">
+                <h1 class="text-light text-center main-head">Project Charter</h1>
+            </div>
+            <div>
+                <h3 class=" text-light text-center main-cover">CV Cá nhân</h3>
+            </div>
+
+        </div>
+        <div class="header-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#ffe066" class="bi bi-emoji-laughing icon-hp" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#ffe066" class="bi bi-flower1 icon-fl" viewBox="0 0 16 16">
+                <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826zM8 1a1 1 0 0 0-.998 1.03l.01.091c.012.077.029.176.054.296.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a4.997 4.997 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1zM2 9l.03-.002.091-.01a4.99 4.99 0 0 0 .296-.054c.241-.049.542-.122.887-.213a60.59 60.59 0 0 0 2.314-.676L5.762 8l-.144-.045a60.59 60.59 0 0 0-2.314-.676 16.705 16.705 0 0 0-.887-.213 4.99 4.99 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2zm7 5-.002-.03a5.005 5.005 0 0 0-.064-.386 16.398 16.398 0 0 0-.213-.888 60.582 60.582 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a4.996 4.996 0 0 0-.064.386L7 14a1 1 0 1 0 2 0zm-5.696-2.134.025-.017a5.001 5.001 0 0 0 .303-.248c.184-.164.408-.377.661-.629A60.614 60.614 0 0 0 5.96 9.23l.103-.111-.147.033a60.88 60.88 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5.063 5.063 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027c.01-.02.021-.048.036-.084a5.09 5.09 0 0 0 .102-.283c.078-.233.165-.53.258-.874a60.6 60.6 0 0 0 .572-2.343l.033-.147-.11.102a60.848 60.848 0 0 0-1.743 1.667 17.07 17.07 0 0 0-.629.66 5.06 5.06 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366zm9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a4.951 4.951 0 0 0-.303.248 16.69 16.69 0 0 0-.661.629A60.72 60.72 0 0 0 10.04 6.77l-.102.111.147-.033a60.6 60.6 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a4.993 4.993 0 0 0 .367-.138.53.53 0 0 0 .027-.014zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027c-.01.02-.021.048-.036.084a5.09 5.09 0 0 0-.102.283c-.078.233-.165.53-.258.875a60.62 60.62 0 0 0-.572 2.342l-.033.147.11-.102a60.848 60.848 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5.001 5.001 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366zM14 9a1 1 0 0 0 0-2l-.03.002a4.996 4.996 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a4.996 4.996 0 0 0 .386.064L14 9zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035c.072.03.166.064.283.103.233.078.53.165.874.258a60.88 60.88 0 0 0 2.343.572l.147.033-.103-.111a60.584 60.584 0 0 0-1.666-1.742 16.705 16.705 0 0 0-.66-.629 4.996 4.996 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366zm2.196-1.196.017.025a4.996 4.996 0 0 0 .248.303c.164.184.377.408.629.661A60.597 60.597 0 0 0 6.77 5.96l.111.102-.033-.147a60.602 60.602 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5.006 5.006 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1zm9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a60.619 60.619 0 0 0-2.342-.572l-.147-.033.102.111a60.73 60.73 0 0 0 1.667 1.742c.253.252.477.465.66.629a4.946 4.946 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366zm-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5.065 5.065 0 0 0-.248-.303 16.705 16.705 0 0 0-.629-.661A60.462 60.462 0 0 0 9.23 10.04l-.111-.102.033.147a60.6 60.6 0 0 0 .572 2.342c.093.345.18.642.258.875a4.985 4.985 0 0 0 .138.367.575.575 0 0 0 .014.027zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+              </svg>
+        </div>
+    </header>
+
+    <section id="Main-prj">
+        <div class="container bg-primary text-light p-md-0">
+            <div class="row row-cols-md-2 text-dark ps-md-1 pe-md-3 m-md-0 gap-0">
+                <div class="col-md-9 m-0 flex-md-fill pt-3">
+                    <div class="row row-cols-md-4 text-dark flex-md-fill gap-3 m-0">
+
+                        <!-- ----------------------------- -->
+
+
+                        <!-- Goals -->
+
+
+                        <!-- ----------------------------- -->
+
+                        <div class="col-md-6  bg-body-tertiary flex-md-fill p-md-0">
+                            <div class="text-primary mb-md-0 px-md-2 pt-md-3">
+                                <h1 class="fs-3 px-3 pt-2">Goals</h1>
+                            </div>
+                            <div class="d-md-flex flex-md-column px-sm-3 mb-md-3 p-md-2 text-dark ">
+                                <div class="d-md-flex text-dark border-bottom pt-2 border-top">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 1</h3>
+                                        <p class="fs-6 ">Cài đặt Bootstrap 5.0 vào trang Web</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 2</h3>
+                                        <p class="fs-6 ">Chia file CSS cho từng màn hình</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 3</h3>
+                                        <p class="fs-6 ">Phần Navbar</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 4</h3>
+                                        <p class="fs-6 ">Phần Thông tin cá nhân</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 5</h3>
+                                        <p class="fs-6 ">Phần Thông tin nghề nghiệp</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 6</h3>
+                                        <p class="fs-6 "> Phần Chứng chỉ - Giải thưởng</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 7</h3>
+                                        <p class="fs-6 ">Phần dự án</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 8</h3>
+                                        <p class="fs-6 ">Phần Footer</p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex text-dark border-bottom pt-2 ">
+                                    <div class="icon text-sm-center mx-md-4 me-md-5 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg " width="22 " height="22 " fill="currentColor " class="bi bi-flag-fill " viewBox="0 0 16 16 ">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68
+                                    8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1
+                                    10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001 "/>
+                                      </svg></div>
+                                    <div class="text text-dark ">
+                                        <h3 class="fs-6 mb-md-0 ">Goal 9</h3>
+                                        <p class="fs-6 ">Đưa trang Web lên online</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------------------- -->
+
+
+                        <!-- Team -->
+
+
+                        <!-- ----------------------------- -->
+
+                        <div class="col-md  bg-body-tertiary flex-md-fill p-md-0">
+                            <div class="text-primary mb-md-1 p-md-2 pt-md-3 ">
+                                <h1 class="fs-3 px-3 pt-2">Team</h1>
+                                <div class="d-md-flex flex-column px-sm-3 mb-md-3 p-md-2 text-dark ">
+                                    <div class="d-md-flex text-dark border-bottom pt-2 border-top ">
+                                        <div class="icon text-sm-center mx-md-3 me-md-4 pt-md-2 "><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                          </svg>
+                                        </div>
+                                        <div class="text text-dark ">
+                                            <h3 class="fs-6 mb-md-0 ">Goal 1</h3>
+                                            <p class="fs-6 ">Name: Nguyễn Anh Quân</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------------------- -->
+
+
+                        <!-- Scopes -->
+
+
+                        <!-- ----------------------------- -->
+
+
+                        <div class="col-md-6 bg-body-tertiary flex-md-fill p-md-0">
+                            <div class="text-primary mb-md-1 p-md-2 ">
+                                <h1 class="fs-3 px-3 pt-2 ">Scopes</h1>
+                                <div class="d-md-flex px-3 pt-2 text-dark border-top pt-md-3 ">
+                                    <div class="me-md-5 ">
+                                        <h3 class="fs-5 mb-md-3 text-uppercase ">IN</h3>
+                                        <p class="fs-6 mb-2 ">Tiếp nhận thiết kế Assignment 3</p>
+                                        <p class="fs-6 ">Đảm bảo đầy đủ các yêu cầu</p>
+                                    </div>
+                                    <div>
+                                        <h3 class="fs-5 mb-md-3 text-uppercase ">OUT</h3>
+                                        <p class="fs-6 mb-2 ">Tiếp nhận thiết kế Assignment 3</p>
+                                        <p class="fs-6 ">Đảm bảo đầy đủ các yêu cầu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------------------- -->
+
+
+                        <!-- Primary -->
+
+
+                        <!-- ----------------------------- -->
+
+                        <div class="col-md  bg-body-tertiary flex-md-fill p-md-0">
+                            <div class="text-primary mb-md-1 p-md-2 ">
+                                <h1 class="fs-3 px-3 pt-2 ">Primary</h1>
+                                <div class="d-md-flex flex-column px-sm-3 px-md-2 text-dark border-top pt-md-3 ">
+                                    <div class="d-flex align-items-md-start justify-content-md-start flex-primary">
+                                        <div class="icon text-sm-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="icon bi bi-question-circle-fill me-3 mx-2 my-1 icon" viewBox="0 0 16 16">
+                                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                                          </svg>
+                                        </div>
+                                        <div>
+                                            <p class="fs-6 text-break">Đáp ứng đảm bảo đúng yêu cầu thiết kế </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-md-start justify-content-md-start flex-primary">
+                                        <div class="icon text-sm-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="icon bi bi-question-circle-fill me-3 mx-2 my-1" viewBox="0 0 16 16">
+                                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                                          </svg>
+                                        </div>
+                                        <div>
+                                            <p class="fs-6 text-break ">Nội dung dễ dàng, dễ nhìn, dễ đọc </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md flex-md-fill"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-md-0 pe-md-0 ps-md-1 pt-md-3 pb-3 main-row-1">
+                    <!-- ----------------------------- -->
+
+
+                    <!-- TimeLine -->
+
+
+                    <!-- ----------------------------- -->
+
+                    <div class="col-md bg-body-tertiary flex-md-fill p-md-0 px-2" style="height: 100%;">
+                        <div class="text-primary mb-md-0 px-2 pt-md-3 ">
+                            <h1 class="fs-3 px-3 pt-2">TimeLine</h1>
+                        </div>
+                        <div class="d-md-flex flex-md-column mb-md-3 p-md-2 px-3 text-dark justify-content-start ">
+                            <div class="d-md-flex text-dark pt-2 border-top ">
+                                <div class="mx-md-3 me-md-3 pt-md-2 mb-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-1-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312V4.002Z "/>
+                                  </svg>
+                                </div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1 text-break">10/7/2023</h3>
+                                    <p class="fs-6  text-break">Cài đặt Bootstrap 5.0 vào trang Web</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class="mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-2-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428
+                                    1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">10/7/2023</h3>
+                                    <p class="fs-6  text-break"> Chia file CSS cho từng màn hình</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class="mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-3-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1
+                                    1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">10/7/2023</h3>
+                                    <p class="fs-6  text-break"> Thiết kế Navbar</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class=" mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-4-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176c-.218.352-.438.703-.657 1.055ZM6.225 9.281v.053H8.85V5.063h-.065c-.867
+                                    1.33-1.787 2.806-2.56 4.218Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">10/7/2023</h3>
+                                    <p class="fs-6  text-break"> Thiết kế Phần Thông tin cá nhân</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class="mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-5-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.006 4.158c1.74 0 2.924-1.119 2.924-2.806 0-1.641-1.178-2.584-2.56-2.584-.897 0-1.442.421-1.612.68h-.064l.193-2.344h3.621V4.002H5.791L5.445 8.63h1.149c.193-.358.668-.809
+                                    1.435-.809.85 0 1.582.604 1.582 1.57 0 1.085-.779 1.682-1.57 1.682-.697 0-1.389-.31-1.53-1.031H5.276c.065 1.213 1.149 2.115 2.72 2.115Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">10/7/2023</h3>
+                                    <p class="fs-6  text-break"> Thiết kế Phần Thông tin nghề nghiệp</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class=" mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-6-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.21 3.855c-1.868 0-3.116 1.395-3.116 4.407 0 1.183.228 2.039.597 2.642.569.926 1.477 1.254 2.409 1.254 1.629 0 2.847-1.013 2.847-2.783 0-1.676-1.254-2.555-2.508-2.555-1.125
+                                    0-1.752.61-1.98 1.155h-.082c-.012-1.946.727-3.036 1.805-3.036.802 0 1.213.457 1.312.815h1.29c-.06-.908-.962-1.899-2.573-1.899Zm-.099 4.008c-.92 0-1.564.65-1.564 1.576 0 1.032.703 1.635 1.558 1.635.868 0 1.553-.533 1.553-1.629
+                                    0-1.06-.744-1.582-1.547-1.582Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">10/7/2023</h3>
+                                    <p class="fs-6  text-break"> Thiết kế Phần Chứng chỉ - Giải thưởng</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class="mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-7-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.37 5.11h3.972v.07L6.025 12H7.42l3.258-6.85V4.002H5.369v1.107Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">10/7/2023</h3>
+                                    <p class="fs-6  text-break"> Thiết kế Phần dự án & Thiết kế Phần Footer</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class="mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-8-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-5.03 1.803c0-1.248-.943-1.84-1.646-1.992v-.065c.598-.187 1.336-.72 1.336-1.781 0-1.225-1.084-2.121-2.654-2.121-1.57 0-2.66.896-2.66 2.12 0 1.044.709 1.589 1.33 1.782v.065c-.697.152-1.647.732-1.647
+                                    2.003 0 1.39 1.19 2.344 2.953 2.344 1.77 0 2.989-.96 2.989-2.355Zm-4.347-3.71c0 .739.586 1.255 1.383 1.255s1.377-.516 1.377-1.254c0-.733-.58-1.23-1.377-1.23s-1.383.497-1.383 1.23Zm-.281 3.645c0 .838.72 1.412 1.664 1.412.943
+                                    0 1.658-.574 1.658-1.412 0-.843-.715-1.424-1.658-1.424-.944 0-1.664.58-1.664 1.424Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">11/7/2023</h3>
+                                    <p class="fs-6  text-break">Thiết kế Phần Nâng cao</p>
+                                </div>
+                            </div>
+                            <div class="d-md-flex text-dark pt-2 ">
+                                <div class="mx-md-3 me-md-3 pt-md-2 mb-2 number-icon "><svg xmlns="http://www.w3.org/2000/svg " width="36 " height="36 " fill="#b197fc " class="bi bi-9-circle-fill " viewBox="0 0 16 16 ">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.223 4.146c2.104 0 3.123-1.464 3.123-4.3 0-3.147-1.459-4.014-2.97-4.014-1.63 0-2.871 1.02-2.871 2.73 0 1.706 1.171 2.667 2.566 2.667 1.06 0 1.7-.557 1.934-1.184h.076c.047
+                                    1.67-.475 3.023-1.834 3.023-.71 0-1.149-.363-1.248-.72H5.258c.094.908.926 1.798 2.52 1.798Zm.118-3.972c.808 0 1.535-.528 1.535-1.594s-.668-1.676-1.56-1.676c-.838 0-1.517.616-1.517 1.659 0 1.072.708 1.61 1.54 1.61Z "/>
+                                  </svg></div>
+                                <div class="text text-dark border-bottom w-100">
+                                    <h3 class="fs-6 mb-md-1  text-break">11/7/2023</h3>
+                                    <p class="fs-6  text-break">Đưa trang Web lên online</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button type="button " class="btn btn-link float-md-end mt-3 "><a href="./digital-cv.html "><i class="bi bi-arrow-left "></i>Back to Digital-CV</a></button>
+
+    <!-- ------------------------------------- -->
+
+    <!-- Liên hệ -->
+
+    <!-- ------------------------------------- -->
+
+    <div class="main-contact ">
+        <div class="main-contact-detail ">
+            <div class="main-contact-icon "><i class="icon-facebook-circled "></i></div>
+            <div class="main-contact-text "><a href="https://www.facebook.com/quan.nguyenanh.9674227/ ">Facebook</a></div>
+        </div>
+        <div class="main-contact-detail ">
+            <div class="main-contact-icon "><i class="icon-linkedin-circled "></i></div>
+            <div class="main-contact-text "><a href="https://www.linkedin.com/ ">Linkedin</a></div>
+        </div>
+        <div class="main-contact-detail ">
+            <div class="main-contact-icon "><i class="icon-github-circled "></i></div>
+            <div class="main-contact-text "><a href="https://github.com/AnhQuan2705 ">Github</a></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz " crossorigin="anonymous "></script>
+</body>
+
+</html>
